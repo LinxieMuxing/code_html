@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple setInterval clock</title>
+    <style>
+      p {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn1">Start</button>
+    <button id="btn2">Stop</button>
+    <button id="btn3">Reset</button>
+    <p class="time"></p>
+    <script>
+      const Start = document.getElementById("btn1");
+      const Stop = document.getElementById("btn2");
+      const Reset = document.getElementById("btn3");
+      const ShowTime = document.querySelector(".time");
+      
+      let secondCount = 0;
+      let stopWatch;
+
+      function displayCount() {
+        let hours = Math.floor(secondCount/3600);
+        let minutes = Math.floor((secondCount % 3600)/60);
+        let seconds = Math.floor(secondCount % 60);
+
+        let displayHours = (hours < 10) ? "0" + hours : hours;
+        let displayMinutes = (minutes < 10) ? "0" + minutes : minutes;
+        let displaySeconds = (seconds < 10) ? "0" + seconds : seconds;
+
+
+        ShowTime.textContent = displayHours + ":" + displayMinutes + ":" + displaySeconds;
+        secondCount++;
+      }
+
+      //displayTime();
+      function btn_start(){
+        stopWatch = setInterval(displayCount, 1000);
+        Start.disabled = true;
+      }
+      
+      function btn_stop(){
+        clearInterval(stopWatch);
+        Start.disabled = false;
+      }
+
+      function btn_reset(){
+        clearInterval(stopWatch);
+        Start.disabled = false;
+        secondCount = 0;
+        displayCount();
+      }
+      Start.addEventListener("click", btn_start);
+      Stop.addEventListener("click", btn_stop);
+      Reset.addEventListener("click", btn_reset);
+      displayCount();
+    </script>
+  </body>
+</html>
+
+
+<!-- 当你的代码有可能比你分配的时间间隔，花费更长时间运行时，最好使用递归的 setTimeout() - 这将使执行之间的时间间隔保持不变，无论代码执行多长时间，你不会得到错误。 -->
+<!-- 
+let i = 1;
+
+setTimeout(function run() {
+  console.log(i);
+  i++;
+  setTimeout(run, 100);
+}, 100); 
+-->
+
+<!-- 无限循环执行 异步 递归调用的
+function draw() {
+   // Drawing code goes here
+   requestAnimationFrame(draw);
+}
+
+draw(); -->
