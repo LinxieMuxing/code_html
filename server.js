@@ -49,11 +49,32 @@ app.get('/ie',(request, response)=>{
 app.get('/delay',(request, response)=>{
     //设置响应头 设置允许跨域
     response.setHeader("Access-Control-Allow-Origin", "*");
+
     //设置响应体
     setTimeout(() => {
         response.send("Hello Dalay");
     }, 3000);
 
+});
+//jQuery服务
+app.all('/jquery-server',(request, response)=>{
+    //设置响应头 设置允许跨域
+    response.setHeader("Access-Control-Allow-Origin", "*");
+    //设置响应体
+    //response.send("Hello jQuery AJAX");
+    const data = {name: "sbsbsbs"};
+    response.send(JSON.stringify(data));
+});
+
+//fetch服务
+app.all('/fetch-server',(request, response)=>{
+    //设置响应头 设置允许跨域
+    response.setHeader("Access-Control-Allow-Origin", "*");
+    response.setHeader("Access-Control-Allow-Headers", "*");
+    //设置响应体
+    //response.send("Hello fetch AJAX");
+    const data = {name: "sbsbsbs"};
+    response.send(JSON.stringify(data));
 });
 //4.监听端口启动服务
 app.listen(8000, ()=>{

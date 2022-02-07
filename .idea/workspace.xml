@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fc67611-bb00-47fc-823c-6f470056e889" name="Changes" comment="Changes">
+    <list default="true" id="2fc67611-bb00-47fc-823c-6f470056e889" name="Changes" comment="Merge remote-tracking branch 'code_html/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/fetch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fetch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery-AJAX/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/jQuery-AJAX/client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery-AJAX/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/jQuery-AJAX/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/原生AJAX/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +80,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\code_html\原生AJAX" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\code_html" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="code_html" type="NodeJSConfigurationType" node-parameters="C:\Users\Administrator\AppData\Roaming\npm\node_modules\nodemon\bin\nodemon" path-to-js-file="原生AJAX/server.js" working-dir="$PROJECT_DIR$">
+    <configuration name="code_html" type="NodeJSConfigurationType" node-parameters="C:\Users\Administrator\AppData\Roaming\npm\node_modules\nodemon\bin\nodemon" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
   </component>
@@ -91,7 +99,7 @@
       <updated>1644045887861</updated>
       <workItem from="1644045890799" duration="152000" />
       <workItem from="1644046076692" duration="16931000" />
-      <workItem from="1644204307694" duration="946000" />
+      <workItem from="1644204307694" duration="4852000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1644049420848</created>
@@ -149,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644205199478</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'code_html/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1644205291135</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644205291135</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +175,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -169,7 +196,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="Merge remote-tracking branch 'code_html/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'code_html/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
