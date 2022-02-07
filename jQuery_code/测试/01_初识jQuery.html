@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>初识jQuery</title>
+    <script crossorigin="anonymous" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        //使用原生DOM
+        window.onload = function (){
+            let btn_1 = document.querySelectorAll("button")[0];
+            btn_1.onclick = function (){
+                let username = document.getElementById("username").value;
+                alert(username);
+                //console.log(username);
+            }
+        };
+        //使用jQuery
+        //绑定文档加载完成的监听
+        //1.使用jQuery核心函数($/jQuery)
+        //2.使用jQuery核心对象:执行$()返回的对象
+        $(function (){
+            $('#btn2').click(function (){
+                let username = $('#username').val();
+                alert(username);
+            })
+        })
+    </script>
+</head>
+<body>
+    <label for="username">用户名：</label>
+    <input id="username">
+    <button id="btn1">确定（原生版）</button>
+    <button id="btn2">确定（jQuery版）</button>
+
+</body>
+</html>
