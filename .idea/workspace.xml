@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fc67611-bb00-47fc-823c-6f470056e889" name="Changes" comment="Merge remote-tracking branch 'code_html/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/fetch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/同源策略/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/同源策略/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/同源策略/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jQuery-AJAX/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/jQuery-AJAX/client.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jQuery-AJAX/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/jQuery-AJAX/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原生AJAX/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +72,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="ts.external.directory.path" value="D:\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -84,10 +83,17 @@
       <recent name="C:\Users\Administrator\Desktop\code_html" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="code_html" type="NodeJSConfigurationType" node-parameters="C:\Users\Administrator\AppData\Roaming\npm\node_modules\nodemon\bin\nodemon" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.server.js">
+    <configuration name="code_html" type="NodeJSConfigurationType" node-parameters="C:\Users\Administrator\AppData\Roaming\npm\node_modules\nodemon\bin\nodemon" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" node-parameters="C:\Users\Administrator\AppData\Roaming\npm\node_modules\nodemon\bin\nodemon" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/同源策略">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.code_html" />
+      <item itemvalue="Node.js.server.js" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +105,7 @@
       <updated>1644045887861</updated>
       <workItem from="1644045890799" duration="152000" />
       <workItem from="1644046076692" duration="16931000" />
-      <workItem from="1644204307694" duration="4852000" />
+      <workItem from="1644204307694" duration="6982000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1644049420848</created>
@@ -164,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644205291135</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'code_html/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1644211716970</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644211716970</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
