@@ -5,28 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fc67611-bb00-47fc-823c-6f470056e889" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/express基本使用.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery-AJAX/client.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery-AJAX/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/1_GET.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/1_main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/2_POST.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/2_post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/3_JSON.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/3_JSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/4_IE缓存.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/4_IE缓存.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/5_超时与网络异常.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/5_超时与网络异常.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/6_取消请求.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/6_取消请求.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/7_重复请求问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/7_重复请求问题.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/HTTP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原生AJAX/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +91,7 @@
       <updated>1644045887861</updated>
       <workItem from="1644045890799" duration="152000" />
       <workItem from="1644046076692" duration="16931000" />
-      <workItem from="1644204307694" duration="754000" />
+      <workItem from="1644204307694" duration="946000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1644049420848</created>
@@ -164,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644050135207</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changes">
+      <created>1644205199478</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644205199478</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
